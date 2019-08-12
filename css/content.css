@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*----------------------------------*/
+
+/*            總體設定               */
+
+/*----------------------------------*/
+
+body, html {
+    font-family: 'Noto Serif TC', serif;
+    height: 100%;
+    background: url(https://i2.bahamut.com.tw/html_bg.gif) center top #F9F9F9;
+}
+
+div.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*----------------------------------*/
+
+/*            樓主發文               */
+
+/*----------------------------------*/
+
+div.card-set {
+    background: rgb(255, 255, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 6px #e6e6e6;
+}
+
+h5.title {
+    padding: 0.5em 0;
+    font-weight: bolder;
+}
+
+a.Landlord {
+    text-align: right;
+    color: #fff !important;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+    border: 2px solid #993a3a;
+    border-radius: 8px;
+    background-color: #993a3a;
+    white-space: nowrap;
+    margin: 0 0.5em 0 0em;
+}
+
+div.label {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+div.author-name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+}
+
+div.timeshow {
+    color: #6c757d;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p.content {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.icon-set {
+    font-size: 25px;
+    margin-right: 0.2em;
+    color: #190742;
+}
+
+div.info {
+    margin-left: -0.5em;
+}
+
+div.info {
+    font-size: 1em;
+}
+
+/*----------------------------------*/
+
+/*             文章留言              */
+
+/*----------------------------------*/
+
+h1 {
+    font-weight: bolder;
+    text-align: center !important;
+    font-size: 2em;
+    color: rgb(53, 24, 24);
+    margin-top: 0.5em;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+hr.set {
+    margin-bottom: 0em;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+hr.separate {
+    opacity: 0.75;
+    width: 60%;
+    background-color: rgba(116, 6, 6, 0.548);
+    height: 2px;
+    border: none;
+    color: #d4d4d4;
+}
+
+/*----------------------------------*/
+
+/*             文章留言內容          */
+
+/*----------------------------------*/
+a.dateTime{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+}
+
+div.replyInput {
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.89;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    caret-color: #2D4F41;
+    cursor: text;
+}
+
+div.backgroundbtn{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: auto;
+    padding-bottom: 3em;
+    background: rgb(209, 209, 209);
+}
+a.floorTag {
+    text-align: right;
+    color: #fff !important;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+    border: 2px solid #993a3a;
+    border-radius: 8px;
+    background-color: #993a3a;
+    white-space: nowrap;
+    margin: 0 0.5em 0 1em;
+}

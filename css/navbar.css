@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*----------------------------------*/
+
+/*            總體設定               */
+
+/*----------------------------------*/
+
+body, html {
+    font-family: 'Noto Serif TC', serif;
+}
+/*----------------------------------*/
+
+/*            navbar                */
+
+/*----------------------------------*/
+nav.navbar {
+    position: relative;
+    z-index: 25;
+    background-color: rgb(1, 75, 18); 
+}
+.navbar-nav {
+    margin-left: auto;
+}
+li.nav-item {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0.2em;
+}
+
+li.nav-item:hover {
+    background: rgba(209, 202, 192, 0.315);
+    border-radius: 4px;
+}
+.dropdown-menu{
+    color: #ffffff !important;
+    background: rgb(1, 75, 18) !important;
+}
+.dropdown-item{
+    color: #ffffff !important;
+}
+.dropdown-item:hover{
+    background: rgba(209, 202, 192, 0.315);
+}
+/*----------------------------------*/
+
+/*            icon設定              */
+
+/*----------------------------------*/
+i.nav-icon-book {
+    margin-right: 0.5em;
+}
+i.nav-icon-bookmark {
+    margin-right: 0.5em;
+}
+
+i.nav-icon-home {
+    margin-right: 0.5em;
+}
+i.navbar-brand-icon {
+    margin-right: 0.3em;
+    color: rgb(251, 255, 252);
+}
+/*----------------------------------*/
+
+/*            文字顏色              */
+
+/*----------------------------------*/
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/*media設定*/
+@media (max-width:990px) {
+    i.nav-icon-book {
+        margin-left: 1em;
+    }
+    i.nav-icon-bookmark {
+        margin-right: 0.7em;
+    }
+
+}

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*----------------------------------*/
+
+/*            總體設定               */
+
+/*----------------------------------*/
+
+body, html {
+    font-family: 'Noto Serif TC', serif;
+    height: 100%;
+    background: url(https://i2.bahamut.com.tw/html_bg.gif) center top #F9F9F9;
+}
+
+div.container-fluid {
+    position: absolute;
+    top: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+}
+/*----------------------------------*/
+
+/*            子版                  */
+
+/*----------------------------------*/
+
+ul.nav-pills {
+    position: relative;
+    z-index: 20;
+}
+
+li.ChildBoard {
+    background: #461a0193 !important;
+}
+
+li.ChildBoard:hover {
+    background: #a8a2a2af !important;
+}
+
+/*----------------------------------*/
+
+/*            logo                  */
+
+/*----------------------------------*/
+div.logo-set {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(../imgs/test.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img.logo-img {
+    position: relative;
+    top: 10em;
+}
+/*----------------------------------*/
+
+/*            熱門話題               */
+
+/*----------------------------------*/
+
+div.HotIssue {
+    margin: 0.5em 1em;
+    box-shadow: 0px 3px 10px #2c1e1eaf;
+}
+
+div.card-title {
+    font-size: 1.3em !important;
+}
+
+div.HotIssueText {
+    font-size: 1.4em;
+    padding: 0.2em;
+    margin-left: 0.3em;
+}
+
+p.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+div.article-card {
+    margin: 0.5em;
+}
+
+img.img-article {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+div.right-article {
+    padding: 0.5em;
+}
+
+div.author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1em;
+    padding:0 1.25rem;
+}
+
+div.author-name-time {
+    margin-right: 0.5em;
+}
+div.card-footer{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.9em !important;
+}
+/*----------------------------------*/
+
+/*            想要大聲說             */
+
+/*----------------------------------*/
+
+hr {
+    margin-top: none !important;
+    margin-bottom: none !important;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+div.Loudfooter {
+    margin: 1em;
+    min-height: 20em;
+    max-height: 20em;
+}
+
+div.MessengeTotal {
+    margin: 0.5em;
+    overflow-y: auto;
+    max-height: 20em;
+}
+div.MessengeCard{
+    margin: 0 2em;
+}
+div.PushMessengeText {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 0.2em 2.2em;
+}
+img.ImgAuthor {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+div.PushTime {
+    color: #6c757d !important;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: flex-end;
+}
+div.loud-say {
+    box-shadow: 0px 3px 10px #2c1e1eaf;
+    margin: 0.5em 0;
+    padding: 0 1em;
+}
+div.loud-sayText {
+    font-size: 1.3em;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+div.loud-say-card {
+    margin: 0.5em;
+}
+div.textareaMessenge{
+    margin:1em 2em;
+}
+button.loud-say-button {
+    margin-top: 0.5em;
+    margin-left: auto !important;
+}
+
+/*----------------------------------*/
+
+/*            占普一下             */
+
+/*----------------------------------*/
+
+div.Lottery {
+    margin-left: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 0px 3px 10px #2c1e1eaf;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30%;
+    max-height: 30em;
+}
+
+button.lotter-btn {
+    position: absolute;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+img.lottery-img{
+    height: 100%;
+    width:100%;
+}
+@media(max-width:680px) {
+    .nav-pills {
+        display: none;
+    }
+    .img.logo-img {
+        position: relative;
+        top: 1em;
+    }
+}

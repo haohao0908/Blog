@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*----------------------------------*/
+
+/*            總體設定               */
+
+/*----------------------------------*/
+
+body, html {
+    font-family: 'Noto Serif TC', serif;
+    height: 100%;
+    background: url(https://i2.bahamut.com.tw/html_bg.gif) center top #F9F9F9;
+}
+
+div.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/*----------------------------------*/
+
+/*            標題                  */
+
+/*----------------------------------*/
+.h3, h3 {
+    font-size: 1.75rem;
+}
+
+hr.highlight {
+    margin: 1em 0 2em 0 !important;
+    width: 20em;
+    background-color: #2D4F41;
+    height: 5px;
+    border: none;
+    color: #d4d4d4;
+    border-radius: 50%;
+}
+/*----------------------------------*/
+
+/*            框架                  */
+
+/*----------------------------------*/
+div.shadow {
+    border-bottom: 0 none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+div.post {
+    background-color: #d4d4d4;
+    overflow: auto;
+}
+div.content {
+    padding: 1em 1em 1em 1em;
+    background-color: #eee;
+    opacity: 0.95;
+    margin-bottom: 1em;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------------------------*/
+
+/*            下拉選擇               */
+
+/*----------------------------------*/
+#inputState {
+    margin-bottom: 1em;
+}
+
+/*----------------------------------*/
+
+/*            input                 */
+
+/*----------------------------------*/
+input.titleInput, div.postInput{
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.89;
+    border-radius: 8px;
+    caret-color: #2D4F41;
+    cursor: text;
+    text-align: justify;
+    border: none;
+}
+
+div.postInput {
+    min-height: 250px;
+}
+
+div.tag input {
+    border: none !important;
+    overflow: hidden;
+}
+/*----------------------------------*/
+
+/*            加圖片                */
+
+/*----------------------------------*/
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+input[type="file"] {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+    cursor: pointer;
+}

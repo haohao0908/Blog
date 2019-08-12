@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*----------------------------------*/
+
+/*            總體設定               */
+
+/*----------------------------------*/
+
+body, html {
+    font-family: 'Noto Serif TC', serif;
+    height: 100%;
+    background: url(https://i2.bahamut.com.tw/html_bg.gif) center top #F9F9F9;
+}
+
+div.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/*----------------------------------*/
+
+/*            大標題                 */
+
+/*----------------------------------*/
+h1 {
+    font-weight: bolder;
+    text-align: center !important;
+    font-size: 2em;
+    color: rgb(53, 24, 24);
+    margin-top: 0.5em;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+hr.highlight {
+    margin: 1em 0 2em 0 !important;
+    width: 20em;
+    background-color: #2D4F41;
+    height: 5px;
+    border: none;
+    color: #d4d4d4;
+    border-radius: 50%;
+}
+/*----------------------------------*/
+
+/*            文章                  */
+
+/*----------------------------------*/
+div.card-set {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 6px #e6e6e6;
+}
+h3.card-title {
+    font-size: 1.3em !important;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.75rem !important;
+}
+div.label {
+    color: #6c757d;
+    font-size: 0.9em;
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+div.name{
+    float: right;
+}
+.limitLine{
+    min-height: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.CardImg {
+    background: url(../imgs/qq.png);
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+.icon-set {
+    font-size: 25px;
+    margin-right: 0.2em;
+    color: #000000;
+}
+
+div.info {
+    margin-left: 0.5em;
+}
+
+div.info {
+    font-size: 1em;
+}
+p.card-text{
+    line-height: 1.75em;
+}
