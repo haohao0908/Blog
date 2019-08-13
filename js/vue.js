@@ -74,7 +74,6 @@ Vue.component('addarticle-btn', {
 var components_demo = new Vue({
     el: '#components-demo,#addarticle',
     data: {
-        peps: '',
         posts: [
             {
                 id: 1,
@@ -142,3 +141,13 @@ var components_demo2 = new Vue({
 
 })
 
+const vm = new Vue({
+    el: '#app',
+    data: {
+      results: []
+    },
+    mounted() {
+      axios.get("")
+      .then(response => {this.results = response.data.results})
+    }
+  });
